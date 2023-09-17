@@ -13,5 +13,11 @@ public class PymentsController {
 	{
 		return "Transaction successful";
 	}
+	
+	@GetMapping("/helloWorld")
+	public String getMessage()
+	{
+		return "Hello World";
+	}
 
 }

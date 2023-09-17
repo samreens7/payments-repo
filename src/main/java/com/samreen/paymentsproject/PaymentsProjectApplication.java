@@ -14,7 +14,7 @@ public class PaymentsProjectApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PaymentsProjectApplication.class, args);
-		System.out.println("application started");
+		System.out.println("application started....Welcome to the payment gateway.");
 	}
 
 }
